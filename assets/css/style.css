@@ -1,3 +1,11 @@
+a {
+  color: #aaa;
+}
+
+a:hover {
+  color: #007a7c;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -12,6 +20,15 @@
   border-color: #007a7c;
 }
 
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #004a4c;
+  border-color:#004a4c;
+}
+
 .jumbotron {
   background-position: center;
   background-repeat: no-repeat;
@@ -23,6 +40,33 @@
 
 .search-box {
   opacity: 0.7;
+}
+
+.main-feature {
+  font-size: 8rem;
+  color: #777;
+}
+
+.feat-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feat-1 {
+  background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
+}
+
+#feat-2 {
+  background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
+}
+
+#feat-3 {
+  background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
+}
+
+#feat-4 {
+  background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
 }
 
 @media (min-width: 768px) {
