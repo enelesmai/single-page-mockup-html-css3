@@ -1,6 +1,28 @@
-body {
-  font-size: 1px;
-  font-weight: 400;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
-  margin: 0;
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-primary {
+  background-color: #007a7c;
+  border-color: #007a7c;
+}
+
+.jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url(https://www.womenwhocode.com/assets/about/about-header-11a7a82a80b7a5672d2ee86fac42585ed2fb4ff0c95bb794c60c626dafb33955.jpg);
+  height: 700px;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
