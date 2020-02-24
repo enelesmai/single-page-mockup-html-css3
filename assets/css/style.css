@@ -12,6 +12,14 @@ a:hover {
   height: 200px;
 }
 
+.bg-teal {
+  background-color: #00455d;
+}
+
+.date-box {
+  height: 100%;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
