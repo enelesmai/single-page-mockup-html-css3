@@ -6,6 +6,12 @@ a:hover {
   color: #007a7c;
 }
 
+.jumbotron-mini {
+  background-color: #00455d;
+  position: relative;
+  height: 200px;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
