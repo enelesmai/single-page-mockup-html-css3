@@ -37,10 +37,11 @@ a:hover {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited,
-.btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #004a4c;
-  border-color:#004a4c;
+  border-color: #004a4c;
 }
 
 .jumbotron {
