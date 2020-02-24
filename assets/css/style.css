@@ -11,9 +11,18 @@ a:hover {
   flex-direction: column;
 }
 
-.flex-cards {
+.flex-columns {
   display: flex;
   flex-direction: row;
+}
+
+.profile-img {
+  width: 38px;
+  height: 38px;
+}
+
+.comment {
+  width: 80%;
 }
 
 .sizing {
@@ -58,6 +67,12 @@ a:hover {
   border-color: #004a4c;
 }
 
+.btn-secondary {
+  color: #fff;
+  background-color: #9ea8af;
+  border-color: #9ea8af;
+}
+
 .jumbotron {
   background-position: center;
   background-repeat: no-repeat;
@@ -82,6 +97,13 @@ a:hover {
   background-size: cover;
 }
 
+.profile-img {
+  height: 140px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #feat-1 {
   background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
 }
@@ -96,6 +118,26 @@ a:hover {
 
 #feat-4 {
   background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
+}
+
+#feat-6 {
+  background: url(https://i.picsum.photos/id/1035/5854/3903.jpg);
+  background-size: cover;
+}
+
+#feat-7 {
+  background: url(https://i.picsum.photos/id/1013/4256/2832.jpg);
+  background-size: cover;
+}
+
+#feat-8 {
+  background: url(https://i.picsum.photos/id/1005/5760/3840.jpg);
+  background-size: cover;
+}
+
+#feat-9 {
+  background: url(https://i.picsum.photos/id/1011/5472/3648.jpg);
+  background-size: cover;
 }
 
 .attendants-container > .card {
