@@ -6,6 +6,20 @@ a:hover {
   color: #007a7c;
 }
 
+.flex-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.sizing {
+  box-sizing: border-box;
+}
+
 .jumbotron-mini {
   background-color: #00455d;
   position: relative;
@@ -82,6 +96,12 @@ a:hover {
 
 #feat-4 {
   background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
+}
+
+.attendants-container > .card {
+  padding: 5px;
+  width: 30%;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
