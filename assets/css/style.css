@@ -3,7 +3,11 @@ a {
 }
 
 a:hover {
-  color: #007a7c;
+  color: #D4574A;
+}
+
+.bg-secondary {
+  background-color: #D85E4B!important;
 }
 
 .flex-list {
@@ -30,13 +34,13 @@ a:hover {
 }
 
 .jumbotron-mini {
-  background-color: #00455d;
+  background-color: #D35649;
   position: relative;
   height: 200px;
 }
 
 .bg-teal {
-  background-color: #00455d;
+  background-color: #E57051;
 }
 
 .date-box {
@@ -54,9 +58,17 @@ a:hover {
   user-select: none;
 }
 
+.btn {
+  border-radius: 0.1rem;
+}
+
+.form-control {
+  border-radius: 0.1rem;
+}
+
 .btn-primary {
-  background-color: #007a7c;
-  border-color: #007a7c;
+  background-color: #d35649;
+  border-color: #d35649;
 }
 
 .btn-primary:hover,
@@ -65,8 +77,8 @@ a:hover {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #004a4c;
-  border-color: #004a4c;
+  background-color: #F15625;
+  border-color: #F15625;
 }
 
 .btn-secondary {
@@ -75,22 +87,36 @@ a:hover {
   border-color: #9ea8af;
 }
 
+.bg-nav {
+  background-color: #D35649;
+}
+
 .jumbotron {
+  background-color: #777;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url(https://www.womenwhocode.com/assets/about/about-header-11a7a82a80b7a5672d2ee86fac42585ed2fb4ff0c95bb794c60c626dafb33955.jpg);
+  background-image: url(https://stamen.com/wp-content/uploads/2016/08/stamen-workshop-crop2.jpg);
   height: 700px;
 }
 
+.title {
+  text-shadow: 2px 2px 4px #000;
+}
+
 .search-box {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .main-feature {
   font-size: 8rem;
   color: #777;
+}
+
+.featurette-img {
+  width: 280px;
+  height: 280px;
 }
 
 .feat-img {
