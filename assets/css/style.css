@@ -49,12 +49,21 @@ a:hover {
   height: 700px;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-list {
   display: flex;
   flex-direction: column;
 }
 
-.flex-columns {
+nav,
+.flex-stack,
+.event-box,
+.search-inputs {
   display: flex;
   flex-direction: row;
 }
@@ -191,4 +200,12 @@ a:hover {
     width: 85%;
     text-align: center;
   }
+
+  nav,
+  .event-box,
+  .search-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
