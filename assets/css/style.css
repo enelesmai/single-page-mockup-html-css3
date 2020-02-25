@@ -36,7 +36,7 @@ a:hover {
 .jumbotron-mini {
   background-color: #D35649;
   position: relative;
-  height: 200px;
+  min-height: 200px;
 }
 
 .bg-teal {
