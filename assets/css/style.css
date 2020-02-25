@@ -10,6 +10,45 @@ a:hover {
   background-color: #d85e4b !important;
 }
 
+.btn {
+  border-radius: 0.1rem;
+}
+
+.form-control {
+  border-radius: 0.1rem;
+}
+
+.btn-primary {
+  background-color: #d35649;
+  border-color: #d35649;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f15625;
+  border-color: #f15625;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #9ea8af;
+  border-color: #9ea8af;
+}
+
+.jumbotron {
+  background-color: #777;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url(https://stamen.com/wp-content/uploads/2016/08/stamen-workshop-crop2.jpg);
+  height: 700px;
+}
+
 .flex-list {
   display: flex;
   flex-direction: column;
@@ -58,47 +97,8 @@ a:hover {
   user-select: none;
 }
 
-.btn {
-  border-radius: 0.1rem;
-}
-
-.form-control {
-  border-radius: 0.1rem;
-}
-
-.btn-primary {
-  background-color: #d35649;
-  border-color: #d35649;
-}
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited,
-.btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #f15625;
-  border-color: #f15625;
-}
-
-.btn-secondary {
-  color: #fff;
-  background-color: #9ea8af;
-  border-color: #9ea8af;
-}
-
 .bg-nav {
   background-color: #d35649;
-}
-
-.jumbotron {
-  background-color: #777;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-image: url(https://stamen.com/wp-content/uploads/2016/08/stamen-workshop-crop2.jpg);
-  height: 700px;
 }
 
 .title {
@@ -142,7 +142,8 @@ a:hover {
   background-size: cover;
 }
 
-#feat-3 {
+#feat-3,
+.feat-5 {
   background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
 }
 
