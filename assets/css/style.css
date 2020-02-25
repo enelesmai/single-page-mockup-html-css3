@@ -44,6 +44,8 @@ a:hover {
 }
 
 .bd-placeholder-img {
+  height: 123px;
+  width: 123px;
   font-size: 1.125rem;
   text-anchor: middle;
   -webkit-user-select: none;
@@ -148,8 +150,18 @@ a:hover {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+@media (min-width: 767px) and (max-width: 1023px) {
+  .attendants-container > .card {
+    padding: 5px;
+    width: 45%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .attendants-container > .card {
+    padding: 5px;
+    width: 85%;
+    text-align: center;
   }
 }
