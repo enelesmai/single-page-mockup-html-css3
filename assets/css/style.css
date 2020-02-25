@@ -55,6 +55,11 @@ a:hover {
   align-items: center;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .flex-list {
   display: flex;
   flex-direction: column;
@@ -63,7 +68,9 @@ a:hover {
 nav,
 .flex-stack,
 .event-box,
-.search-inputs {
+.search-inputs,
+.container-details,
+.attend-box {
   display: flex;
   flex-direction: row;
 }
@@ -203,9 +210,14 @@ nav,
 
   nav,
   .event-box,
-  .search-inputs {
+  .search-inputs,
+  .container-details,
+  .attend-box {
     display: flex;
     flex-direction: column;
   }
 
+  .date-and-name {
+    padding-bottom: 12px;
+  }
 }
