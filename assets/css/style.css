@@ -3,11 +3,11 @@ a {
 }
 
 a:hover {
-  color: #D4574A;
+  color: #d4574a;
 }
 
 .bg-secondary {
-  background-color: #D85E4B!important;
+  background-color: #d85e4b !important;
 }
 
 .flex-list {
@@ -34,13 +34,13 @@ a:hover {
 }
 
 .jumbotron-mini {
-  background-color: #D35649;
+  background-color: #d35649;
   position: relative;
   min-height: 200px;
 }
 
 .bg-teal {
-  background-color: #E57051;
+  background-color: #e57051;
 }
 
 .date-box {
@@ -77,8 +77,8 @@ a:hover {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #F15625;
-  border-color: #F15625;
+  background-color: #f15625;
+  border-color: #f15625;
 }
 
 .btn-secondary {
@@ -88,7 +88,7 @@ a:hover {
 }
 
 .bg-nav {
-  background-color: #D35649;
+  background-color: #d35649;
 }
 
 .jumbotron {
