@@ -75,11 +75,6 @@ nav,
   flex-direction: row;
 }
 
-.profile-img {
-  width: 38px;
-  height: 38px;
-}
-
 .comment {
   width: 80%;
 }
