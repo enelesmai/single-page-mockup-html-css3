@@ -29,6 +29,7 @@ An HTML/CSS real-world solo project.
 
 - Search form button from main page redirects to results.html, which shows a list of events
 - On results.html each button for registering to an event redirects to detail.html which contains detailed information about an event
+- Design partially based on [PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
 - Design partially based on [Women Who Code](https://www.womenwhocode.com/colima)
 - Design partially based on [Meetup](https://meetup.com/)
 
