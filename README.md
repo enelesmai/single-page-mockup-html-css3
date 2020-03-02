@@ -7,6 +7,7 @@ An HTML/CSS real-world solo project.
 ![screenshot](./assets/images/2_screencapture.png)
 ![screenshot](./assets/images/3_screencapture.png)
 
+
 ## Built With
 
 - CSS3 and HTML
@@ -14,6 +15,23 @@ An HTML/CSS real-world solo project.
 - Media queries
 - FlexBox Model
 - Javascript
+- Font awesome
+
+
+## Features
+
+- Three pages (index.html, results.html, and detail.html)
+- Performed for three screen sizes (mobile, tablet and desktop)
+- [Using Lato Sans font](https://fonts.google.com/specimen/Lato)
+
+
+## What it does
+
+- Search form button from main page redirects to results.html, which shows a list of events
+- On results.html each button for registering to an event redirects to detail.html which contains detailed information about an event
+- Design partially based on [Women Who Code](https://www.womenwhocode.com/colima)
+- Design partially based on [Meetup](https://meetup.com/)
+
 
 ## Live Demo
 
