@@ -7,7 +7,10 @@ An HTML/CSS real-world solo project.
 ![screenshot](./assets/images/2_screencapture.png)
 ![screenshot](./assets/images/3_screencapture.png)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 78742eabbe8dfb7258614bb855baaeefd1d11998
 ## Built With
 
 - CSS3 and HTML
@@ -15,6 +18,7 @@ An HTML/CSS real-world solo project.
 - Media queries
 - FlexBox Model
 - Javascript
+<<<<<<< HEAD
 - Font awesome
 
 
@@ -33,6 +37,8 @@ An HTML/CSS real-world solo project.
 - Design partially based on [Women Who Code](https://www.womenwhocode.com/colima)
 - Design partially based on [Meetup](https://meetup.com/)
 
+=======
+>>>>>>> 78742eabbe8dfb7258614bb855baaeefd1d11998
 
 ## Live Demo
 
