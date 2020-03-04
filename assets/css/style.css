@@ -1,0 +1,218 @@
+a {
+  color: #aaa;
+}
+
+a:hover {
+  color: #d4574a;
+}
+
+.bg-secondary {
+  background-color: #d85e4b !important;
+}
+
+.btn {
+  border-radius: 0.1rem;
+}
+
+.form-control {
+  border-radius: 0.1rem;
+}
+
+.btn-primary {
+  background-color: #d35649;
+  border-color: #d35649;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f15625;
+  border-color: #f15625;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #9ea8af;
+  border-color: #9ea8af;
+}
+
+.jumbotron {
+  background-color: #777;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url(https://stamen.com/wp-content/uploads/2016/08/stamen-workshop-crop2.jpg);
+  height: 700px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-list {
+  display: flex;
+  flex-direction: column;
+}
+
+nav,
+.flex-stack,
+.event-box,
+.search-inputs,
+.container-details,
+.attend-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment {
+  width: 80%;
+}
+
+.sizing {
+  box-sizing: border-box;
+}
+
+.jumbotron-mini {
+  background-color: #d35649;
+  position: relative;
+  min-height: 200px;
+}
+
+.bg-teal {
+  background-color: #e57051;
+}
+
+.date-box {
+  height: 100%;
+}
+
+.bd-placeholder-img {
+  height: 123px;
+  width: 123px;
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bg-nav {
+  background-color: #d35649;
+}
+
+.title {
+  text-shadow: 2px 2px 4px #000;
+}
+
+.search-box {
+  opacity: 0.9;
+}
+
+.main-feature {
+  font-size: 8rem;
+  color: #777;
+}
+
+.featurette-img {
+  width: 280px;
+  height: 280px;
+}
+
+.feat-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-img {
+  height: 140px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feat-1 {
+  background: url(https://i.picsum.photos/id/192/2352/2352.jpg);
+  background-size: cover;
+}
+
+#feat-2 {
+  background: url(https://i.picsum.photos/id/1/5616/3744.jpg);
+  background-size: cover;
+}
+
+#feat-3,
+.feat-5 {
+  background: url(https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg);
+}
+
+#feat-4 {
+  background: url(https://picsum.photos/seed/picsum/200/300);
+}
+
+#feat-6 {
+  background: url(https://i.picsum.photos/id/1035/5854/3903.jpg);
+  background-size: cover;
+}
+
+#feat-7 {
+  background: url(https://i.picsum.photos/id/1013/4256/2832.jpg);
+  background-size: cover;
+}
+
+#feat-8 {
+  background: url(https://i.picsum.photos/id/1005/5760/3840.jpg);
+  background-size: cover;
+}
+
+#feat-9 {
+  background: url(https://i.picsum.photos/id/1011/5472/3648.jpg);
+  background-size: cover;
+}
+
+.attendants-container > .card {
+  padding: 5px;
+  width: 30%;
+  text-align: center;
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .attendants-container > .card {
+    padding: 5px;
+    width: 45%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .attendants-container > .card {
+    padding: 5px;
+    width: 85%;
+    text-align: center;
+  }
+
+  nav,
+  .event-box,
+  .search-inputs,
+  .container-details,
+  .attend-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date-and-name {
+    padding-bottom: 12px;
+  }
+}
